@@ -1,0 +1,173 @@
+/* -------------------NAV------------------- */
+nav{
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background: rgb(15, 15, 15);
+    position: fixed;
+    z-index: 1000;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+
+
+}
+/* -------------------NAV A-Tag------------------- */
+nav a{
+
+    text-decoration: none;
+    color: rgb(216, 216, 216);
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: all .75;
+    font-size: 20px;
+    font-family: neue-haas-unica, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+
+}
+/* -------------------NAV A-Tag : HOVER ------------------- */
+nav a:hover, .active{
+    background-color: antiquewhite;
+    color: rgb(15, 15, 15);
+}
+/* -------------------SECTION------------------- */
+section{
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.content{
+    height: 100%;
+    text-align: center;
+}
+/* -------------------Intro------------------- */
+section .content h1{
+    font-size: 120px;
+    padding-top: 10%;
+    font-family: courage, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(15, 15, 15);
+    margin-bottom: 0px;
+}
+
+section .content p{
+    font-family: neue-haas-unica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+/* -------------------H2------------------- */
+section h2{
+    font-size: 50px;
+    font-family: courage, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+section p{
+    font-family: neue-haas-unica, sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+}
+/* -------------------Section One | oneitems------------------- */
+.oneitems{
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#gif1, #gif2, #gif3{
+
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin: 40px;
+    margin-bottom: 10%;
+}
+/* -------------------Section Two | twoitems------------------- */
+.twoitems{
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+/* -------------------Section Three | threeitems------------------- */
+.threeitems{
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+}
+
+#animation1,#animation2{
+    height: 250px;
+    width: 50%;
+    float: left;
+    margin: 40px;
+    margin-bottom: 10%;
+    overflow: hidden;
+    margin-top: 13%;
+    
+}
+/* -------------------Section Four | fouritems------------------- */
+.fouritems{
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+#container{
+    height: 420px;
+    width: 400px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.div1, .div2, .div3{
+
+    height: 300px;
+    width: 300px;
+    border: 1px black solid;
+
+}
+
+
+footer{
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    background: rgb(15, 15, 15);
+    position:static;
+    z-index: 900;
+    color: aliceblue;
+}
+
+main>section:nth-child(1){
+    padding-top: 4%;
+}
+
+/* .revealElement, #intro h1, #intro p{
+    opacity: 0;
+    text-align: center;
+} */
+
+.revealElement, #intro h1, #intro p{
+    opacity:0;
+    margin-bottom: 100px;
+}
+

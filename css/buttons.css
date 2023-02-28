@@ -1,0 +1,65 @@
+
+.btn {
+
+    width: 150px;
+    height: 150px;
+
+    display: inline-flex;
+    background: grey;
+    
+    margin: 50px 50px;
+
+    transition: width 0.5s ease-in-out,
+    width 0.5s ease-in-out 0.5s;
+
+    font-family: monospace;
+    font-weight: 700;
+    padding: 0;
+    display: inline-block;
+    line-height: 150px;
+    text-align: center;
+
+}
+
+#btn1:hover {
+
+    cursor: pointer;
+    background: indianred;
+
+}
+
+#btn2:hover {
+
+    background: hwb(30 25% 20%);
+    cursor: pointer;
+    width: 200px;
+    transform: rotate(180deg);
+}
+
+#btn3:hover {
+    
+    width:100x;
+    height:100px;
+    
+    background :rgb(255, 176, 222);
+    border-radius:50%;
+    transition:all 01s ease-in-out;
+}
+
+
+#btn4:hover {
+
+    background: rgb(137, 212, 255);
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition:all 01s ease-in-out;
+}
+
+
+#btn5:hover {
+
+    background: rgb(174, 255, 137);
+    border: 3px dotted rgb(255, 137, 137);
+    transition:0.5s ease-in;
+}

@@ -1,0 +1,86 @@
+button{
+
+background-color: rgb(15, 15, 15);
+border: none;
+color: white;
+
+display: inline-block;
+text-align: center;
+
+text-decoration: none;
+font-size: 15px;
+
+margin-top: 5%;
+padding: 12px 28px;
+
+overflow: hidden;
+align-items: center;
+/* display: flex; */
+justify-content: center;
+
+}
+
+
+/* ---------------------------------Div`1 | Green Rectangle--------------------------- */
+.div1{
+padding: 20px;
+border: 1px rgb(0, 0, 0) solid;
+
+display: inline-block;
+text-align: center;
+justify-content: center;
+
+}
+
+.rec{
+width: 200px;
+height: 100px;
+background: green;
+margin-top: 30px;
+
+display: inline-block;
+text-align: center;
+
+}
+/* ---------------------------------Div`2 | Image--------------------------- */
+.div2{
+padding: 20px;
+border: 1px rgb(0, 0, 0) solid;
+
+display: inline-block;
+text-align: center;
+
+
+}
+
+.div2>img{
+opacity: 0;
+margin-left: 100px;
+position: relative;
+margin-top: 30px;
+
+display: inline-block;
+text-align: center;
+
+}
+
+
+/* ---------------------------------Div`3 | Blue Ball--------------------------- */
+.div3{
+padding: 20px;
+border: 1px rgb(0, 0, 0) solid;
+display: inline-block;
+text-align: center;
+
+
+}
+
+.blue{
+width: 150px;
+height: 150px;
+background-color: blue;;
+border-radius: 50%;
+margin-top: 30px;
+
+}
+
